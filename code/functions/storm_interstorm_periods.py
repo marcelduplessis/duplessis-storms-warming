@@ -1,5 +1,5 @@
-from functions.adjust_lon_xr_dataset import adjust_lon_xr_dataset
-from functions.storm_interstorm_id import storm_interstorm_id
+from adjust_lon_xr_dataset import adjust_lon_xr_dataset
+from storm_interstorm_id import storm_interstorm_id
 from tqdm.notebook import tqdm
 import xarray as xr
 import numpy as np
