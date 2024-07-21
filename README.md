@@ -4,12 +4,17 @@ Code using in "Storms regulate Southern Ocean summer warming"
 ### Figures
 
 - `figure-1.ipnyb`
+- `figure-2.ipynb`
 
 ### Data processing 
 
+#### Slocum glider 
+
+1. Slocum processing done in `slocum_processing_main.ipynb`
+
 #### Storm tracking
 
-Storm tracking dataset processed into a single netcdf file using `process-loidse_storm_centers.ipnyb`
+Original storm track position were obtained from https://github.com/jlodise/JGR2022_ExtratropicalCycloneTracker and processed into a single netcdf file using `process-loidse_storm_centers.ipnyb`
 
 #### ERA5
 
