@@ -10,7 +10,11 @@ Code using in "Storms regulate Southern Ocean summer warming"
 
 #### Slocum glider 
 
-1. Slocum processing done in `slocum_processing_main.ipynb`
+Slocum processing done in `slocum_processing_main.ipynb` and follow these steps:
+
+1. Runs `process-slocum-mat-to-nc.py`, which:
+	- Reads in the data processed by the GEOMAR toolbox: `soscexstorm2_final_1sec_v2.mat`
+	- Converts the .mat dictionary format to an xarray dataset and saves the data as `slocum_processed.nc`
 
 #### Storm tracking
 
