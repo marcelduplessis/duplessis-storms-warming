@@ -1,7 +1,15 @@
 # duplessis-storms-warming
 Code using in "Storms regulate Southern Ocean summer warming"
 
+### Figures
+
+- `figure-1.ipnyb`
+
 ### Data processing 
+
+#### Storm tracking
+
+Storm tracking dataset processed into a single netcdf file using `process-loidse_storm_centers.ipnyb`
 
 #### ERA5
 
