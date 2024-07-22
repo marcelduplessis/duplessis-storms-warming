@@ -10,17 +10,19 @@ Code using in "Storms regulate Southern Ocean summer warming"
 
 #### Slocum glider 
 
-Slocum processing done in `slocum_processing_main.ipynb` and follow these steps:
+1. Slocum processing done in `slocum_processing_main.ipynb` and follow these steps:
 
-1. Runs `process-slocum-mat-to-nc.py`, which:
+- Runs `process-slocum-mat-to-nc.py`, which:
 	- Reads in the data processed by the GEOMAR toolbox: `soscexstorm2_final_1sec_v2.mat`
 	- Converts the .mat dictionary format to an xarray dataset and saves the data as `slocum_processed.nc`
-2. Removes pressure and temeprature values that are below -5 (erroneous data)
-3. Saves the data as `slocum_processed_L2.nc`
-4. Calculates the Slocum SST, by:
+- Removes pressure and temeprature values that are below -5 (erroneous data)
+- Saves the data as `slocum_processed_L2.nc`
+- Calculates the Slocum SST, by:
 	- Filter out profiles where the minimum depth is below 10 m (keeps 99.78% of data)
 	- Finds the median value between 0.5 m and 10 m for each profile
 	- Save the data as `slocum_sst_median_10m.nc`
+
+2. Grid the Slocum data to 1 m depth intervals in `slocum_gridding.ipynb`
 
 #### Storm tracking
 
