@@ -17,6 +17,7 @@ Code using in "Storms regulate Southern Ocean summer warming"
 		- Converts the .mat dictionary format to an xarray dataset and saves the data as `slocum_processed.nc`
 	- Removes pressure and temeprature values that are below -5 (erroneous data)
 	- Saves the data as `slocum_processed_L2.nc`
+	_ Saves dissipation and xld data as and `slocum_epsilon.nc` and `slocum_xld.nc`
 	- Calculates the Slocum SST, by:
 		- Filter out profiles where the minimum depth is below 10 m (keeps 99.78% of data)
 		- Finds the median value between 0.5 m and 10 m for each profile
