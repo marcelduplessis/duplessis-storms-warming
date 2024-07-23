@@ -1,5 +1,8 @@
-# duplessis-storms-warming
-Code using in "Storms regulate Southern Ocean summer warming"
+# Code using in "Storms regulate Southern Ocean summer warming"
+
+Datasets are located at:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12779502.svg)](https://doi.org/10.5281/zenodo.12779502)
 
 ## Figures
 
