@@ -5,6 +5,7 @@ Code using in "Storms regulate Southern Ocean summer warming"
 
 - `figure-1.ipnyb`
 - `figure-2.ipynb`
+- `figure-3.ipynb`
 
 ## Datasets 
 
