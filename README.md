@@ -1,14 +1,16 @@
 # duplessis-storms-warming
 Code using in "Storms regulate Southern Ocean summer warming"
 
-### Figures
+## Figures
 
 - `figure-1.ipnyb`
 - `figure-2.ipynb`
 
-### Data processing 
+## Datasets 
 
-#### Slocum glider 
+### Slocum glider (`slocum_gridded.nc`, `slocum_sst_median_10m.nc`)
+
+#### Processing steps:
 
 1. Slocum processing done in `slocum_processing_main.ipynb` and follow these steps:
 
