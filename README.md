@@ -1,4 +1,4 @@
-# Code using in "Storms regulate Southern Ocean summer warming"
+# Code used in "Storms regulate Southern Ocean summer warming"
 
 Datasets are located at:
 
