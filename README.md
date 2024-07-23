@@ -26,13 +26,13 @@ The primary datasets used are `slocum_gridded.nc`, `slocum_sst_median_10m.nc`, `
 		- Finds the median value between 0.5 m and 10 m for each profile
 		- Save the data as `slocum_sst_median_10m.nc`
 
-2. Grid the Slocum data to 1 m depth intervals in `slocum_gridding.ipynb`
+2. Grid the Slocum data to 1 m depth intervals in `slocum_gridding.ipynb` to make `slocum_gridded.nc`
 
-#### Storm tracking
+### Storm tracking
 
 Original storm track position were obtained from https://github.com/jlodise/JGR2022_ExtratropicalCycloneTracker and processed into a single netcdf file using `process-loidse_storm_centers.ipnyb`
 
-#### ERA5
+### ERA5
 
 1. Download the ERA5 data using `download_era5_data.ipynb` which downloads and saves hourly files of the required ERA5 data
 2. Convert the hourly ERA5 files in daily means using `era5_hourly_to_daily.ipynb` which is done to make down the line processing more efficient
@@ -42,3 +42,7 @@ Original storm track position were obtained from https://github.com/jlodise/JGR2
 	- Calculate total storm and interstorm days in a each sesaon
 	- Calculate the mean wind speed and fluxes for storm and interstorm periods
 	- Save the netcdf file as `era5_storm_interstorm_periods_1981_2023_DJF.nc`
+
+### Cloud Top Pressure
+
+The MODIS Level-2 Cloud product was obtained from `http://dx.doi.org/10.5067/MODIS/MYD06_L2.061`. The raw `.hdf` files were processed into a daily composite using `process-modis-CTP.ipynb`. The final data containing the MODIS cloud top pressure for 4 January is saved as `modis_ctt_ctp.nc`.
