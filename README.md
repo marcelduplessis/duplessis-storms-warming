@@ -8,7 +8,9 @@ Code using in "Storms regulate Southern Ocean summer warming"
 
 ## Datasets 
 
-### Slocum glider (`slocum_gridded.nc`, `slocum_sst_median_10m.nc`)
+### Slocum glider 
+
+The primary datasets used are `slocum_gridded.nc`, `slocum_sst_median_10m.nc`, `slocum_epsilon.nc` and `slocum_xld.nc`
 
 #### Processing steps:
 
