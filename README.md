@@ -51,3 +51,7 @@ Original storm track position were obtained from https://github.com/jlodise/JGR2
 ### Cloud Top Pressure
 
 The MODIS Level-2 Cloud product was obtained from `http://dx.doi.org/10.5067/MODIS/MYD06_L2.061`. The raw `.hdf` files were processed into a daily composite using `process-modis-CTP.ipynb`. The final data containing the MODIS cloud top pressure for 4 January is saved as `modis_ctt_ctp.nc`.
+
+### EN4 Mixed Layer Depth
+
+The mixed layer depth calculations using individual profiles and the gridding are done in `process-en4-mld.ipynb`. Profiles saved as `en4_profiles_with_mixed_layer_depth.nc` and gridded mld saved as `en4_monthly_mixed_layer_depth_median.nc`.
