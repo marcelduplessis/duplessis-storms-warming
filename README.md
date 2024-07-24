@@ -10,6 +10,7 @@ Datasets are located at:
 - `figure-2.ipynb`
 - `figure-3.ipynb`
 - `figure-4.ipynb`
+- `figure-5.ipynb`
 
 ## Datasets 
 
