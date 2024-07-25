@@ -14,38 +14,15 @@ Datasets are located at:
 
 #### Datasets required to run the figures:
 
-Figure 1:
-`ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `EN.4.2.2.f.analysis.c14.*.nc`
+Figure 1: `ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `EN.4.2.2.f.analysis.c14.*.nc`
 
-Figure 2: 
-- `slocum_gridded.nc`
-- `slocum_xld.nc`
-- `slocum_epsilon.nc`
-- `slocum_sst_median_10m.nc`
-- `ds_era5_vars.nc`
-- `ds_era5_flux.nc`
+Figure 2: `slocum_gridded.nc`; `slocum_xld.nc`; `slocum_epsilon.nc`; `slocum_sst_median_10m.nc`; `ds_era5_vars.nc`; `ds_era5_flux.nc`
 
-Figure 3:
-- `modis_ctt_ctp.nc`
-- `era5_case_study.nc`
-- `ds_era5_vars.nc`
-- `ds_era5_flux.nc`
+Figure 3: `modis_ctt_ctp.nc`; `era5_case_study.nc`; `ds_era5_vars.nc`; `ds_era5_flux.nc`
 
-Figure 4: 
-- `ec_centers_1981_2020.nc`
-- `era5_storm_interstorm_periods_1981_2023_DJF.nc`
-- `mean_summer_winds_fluxes_1981_2023.nc`
+Figure 4: `ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `mean_summer_winds_fluxes_1981_2023.nc`
 
-Figure 5: 
-- `sie.csv`
-- `ACCfronts.csv`
-- `sst.mnmean.nc`
-- `lsmask.nc`
-- `icec.mnmean.nc`
-- `en4_monthly_mixed_layer_depth_median.nc`
-- `era5_storm_interstorm_periods_1981_2023_DJF.nc`
-- `sam_ds.nc`
-- `mean_summer_winds_fluxes_1981_2023.nc`
+Figure 5: `sie.csv`; `ACCfronts.csv`; `sst.mnmean.nc`; `lsmask.nc`; `icec.mnmean.nc`; `en4_monthly_mixed_layer_depth_median.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `sam_ds.nc`; `mean_summer_winds_fluxes_1981_2023.nc`
 
 ## Datasets 
 
