@@ -12,11 +12,6 @@ Datasets are located at:
 - `figure-4.ipynb`
 - `figure-5.ipynb`
 
-#### Datasets required to run the figures:
-
-
-Figure 5: `sie.csv`; `ACCfronts.csv`; `sst.mnmean.nc`; `lsmask.nc`; `icec.mnmean.nc`; `en4_monthly_mixed_layer_depth_median.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `sam_ds.nc`; `mean_summer_winds_fluxes_1981_2023.nc`
-
 ## Datasets 
 
 ### Slocum glider 
