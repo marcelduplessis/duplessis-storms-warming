@@ -14,13 +14,6 @@ Datasets are located at:
 
 #### Datasets required to run the figures:
 
-Figure 1: `ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `EN.4.2.2.f.analysis.c14.*.nc`
-
-Figure 2: `slocum_gridded.nc`; `slocum_xld.nc`; `slocum_epsilon.nc`; `slocum_sst_median_10m.nc`; `ds_era5_vars.nc`; `ds_era5_flux.nc`
-
-Figure 3: `modis_ctt_ctp.nc`; `era5_case_study.nc`; `ds_era5_vars.nc`; `ds_era5_flux.nc`
-
-Figure 4: `ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `mean_summer_winds_fluxes_1981_2023.nc`
 
 Figure 5: `sie.csv`; `ACCfronts.csv`; `sst.mnmean.nc`; `lsmask.nc`; `icec.mnmean.nc`; `en4_monthly_mixed_layer_depth_median.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `sam_ds.nc`; `mean_summer_winds_fluxes_1981_2023.nc`
 
@@ -67,8 +60,24 @@ Original storm track position were obtained from https://github.com/jlodise/JGR2
 
 ### Cloud Top Pressure
 
+`modis_ctt_ctp.nc`
+
 The MODIS Level-2 Cloud product was obtained from `http://dx.doi.org/10.5067/MODIS/MYD06_L2.061`. The raw `.hdf` files were processed into a daily composite using `process-modis-CTP.ipynb`. The final data containing the MODIS cloud top pressure for 4 January is saved as `modis_ctt_ctp.nc`.
 
-### EN4 Mixed Layer Depth
+### EN4
+
+`EN.4.2.2.f.analysis.c14.*.nc`, `en4_monthly_mixed_layer_depth_median.nc`
 
 The mixed layer depth calculations using individual profiles and the gridding are done in `process-en4-mld.ipynb`. Profiles saved as `en4_profiles_with_mixed_layer_depth.nc` and gridded mld saved as `en4_monthly_mixed_layer_depth_median.nc`.
+
+### NOAA OI SST and sea ice
+
+`sie.csv`, `sst.mnmean.nc`; `lsmask.nc`; `icec.mnmean.nc`
+
+### Southern Ocean Fronts
+
+`ACCfronts.csv`
+
+### Southern Annular Mode
+
+`sam_ds.nc`
