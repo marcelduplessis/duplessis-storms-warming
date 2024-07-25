@@ -24,7 +24,7 @@ Datasets required to run the figures:
 
 ### Slocum glider 
 
-The primary datasets used are `slocum_gridded.nc`, `slocum_sst_median_10m.nc`, `slocum_epsilon.nc` and `slocum_xld.nc`
+`slocum_gridded.nc`, `slocum_sst_median_10m.nc`, `slocum_epsilon.nc` and `slocum_xld.nc`
 
 #### Processing steps:
 
@@ -44,9 +44,13 @@ The primary datasets used are `slocum_gridded.nc`, `slocum_sst_median_10m.nc`, `
 
 ### Storm tracking
 
+`ec_centers_1981_2020.nc`
+
 Original storm track position were obtained from https://github.com/jlodise/JGR2022_ExtratropicalCycloneTracker and processed into a single netcdf file using `process-loidse_storm_centers.ipnyb`
 
 ### ERA5
+
+`era5_storm_interstorm_periods_1981_2023_DJF.nc`, `ds_era5_vars.nc`, `ds_era5_flux.nc`, `era5_case_study.nc`, `mean_summer_winds_fluxes_1981_2023.nc`
 
 1. Download the ERA5 data using `download_era5_data.ipynb` which downloads and saves hourly files of the required ERA5 data
 2. Convert the hourly ERA5 files in daily means using `era5_hourly_to_daily.ipynb` which is done to make down the line processing more efficient
