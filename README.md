@@ -15,9 +15,7 @@ Datasets are located at:
 #### Datasets required to run the figures:
 
 Figure 1:
-- `ec_centers_1981_2020.nc`
-- `era5_storm_interstorm_periods_1981_2023_DJF.nc`
-- `EN.4.2.2.f.analysis.c14.*.nc`
+`ec_centers_1981_2020.nc`; `era5_storm_interstorm_periods_1981_2023_DJF.nc`; `EN.4.2.2.f.analysis.c14.*.nc`
 
 Figure 2: 
 - `slocum_gridded.nc`
